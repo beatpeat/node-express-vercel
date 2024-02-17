@@ -7,7 +7,7 @@ const router = express.Router();
 // Define route
 router.get("/", async (req, res, next) => {
   return res.status(200).json({
-    title: "Express Testing",
+    title: "Express Testing again",
     message: "The app is working properly!",
   });
 });
